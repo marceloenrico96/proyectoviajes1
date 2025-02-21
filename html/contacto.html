@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+    <title>Formulario contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo"><a href="../index.html"><img src="../imagenes/memoriasdeviajestransparente.png"
+                        alt=""></a></div>
+            <ul> <!--Esto es el menu de todas las paginas-->
+                <li><img src="../imagenes/house.png" alt=""><a href="../index.html" class="links-menu">Inicio</a></li>
+                <li><img src="../imagenes/world.png" alt=""><a href="./paises.html" class="links-menu">Paises</a></li>
+                <li><img src="../imagenes/camera.png" alt=""><a href="./galerias.html" class="links-menu">Galeria</a>
+                </li>
+                <li><img src="../imagenes/luggage.png" alt=""><a href="./guias.html" class="links-menu">Guias</a></li>
+                <li><img src="../imagenes/contact-information.png" alt=""><a href="./aboutme.html"
+                        class="links-menu">About Me</a></li>
+                <li><img src="../imagenes/smartphone.png" alt=""><a href="./contacto.html"
+                        class="links-menu">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h2>
+            <p><b>
+                    Si queres contactarte con nosotros podes hacerlo directamente desde este formulario:
+
+            </p>
+        </h2></b>
+
+
+        <div class="formulario-contacto">
+            <form action="/submit" method="post" class="form-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido">
+
+                <label for="email">Tu Email:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="mensaje">Tus Dudas:</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+
+                <label for="suscribe">
+                    <input type="checkbox" name="suscribe" id="suscribe"> Suscribirse
+                </label>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="footer-nav">
+            <div class="footer-item"><a href="mailto:marceloenrico96@gmail.com"> <img src="/Imagenes/mail.png"
+                        alt="">Email</a></div>
+
+            <div class="footer-item"><a href="https://www.instagram.com/memorias.deviajes/" target="_blank"><img
+                        src="/Imagenes/instagram.png" alt="">Instagram</a>
+            </div>
+
+            <div class="footer-item"><a href="/html/aboutme.html"><img src="/Imagenes/working.png" alt="">Sobre Mi</a>
+            </div>
+            <p>Copyright &copy; Todos los derechos reservados. 2025. By Marcelo Exequiel Enrico</p>
+        </nav>
+    </footer>
+</body>
+
+</html>

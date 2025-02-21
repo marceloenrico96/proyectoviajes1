@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.menu {
+    font-family: "Lexend Giga", serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #d1e9ff;
+    font-style: italic;
+    padding: 5px;
+    display: flex;
+}
+.links-menu {
+    text-decoration: none;
+    color: #1F4E79;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-flex;
+    margin: 20px;
+}
+.menu img {
+    width: 40px;
+    height: auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.logo img {
+    width: 120px;
+    height: 90px; 
+}
+
+
+/*Main - Index*/
+
+body {
+    background-color: #F8F8F2;
+}
+.inicio-web h1{
+    font-family:"Lexend Giga", serif;
+    text-decoration: underline;
+    color: #1F4E79;
+    font-size: 40px;
+    text-align: center;
+}
+
+.inicio-web h2{
+    font-family: "Lexend Giga", serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #1F4E79;
+    text-decoration: underline;
+}
+.inicio-web p{
+    font-family: "Lexend Giga", serif;
+}
+.inicio-web a{
+    text-decoration: none;
+    color: #1F4E79;
+}
+
+.portada {
+display: flex;
+width: 1500px;
+height: 600px;
+margin: 10px;
+}
+
+#intro-main p {
+    padding: 10px;
+}
+
+/*Sobre mi*/
+
+#about-me h1 {
+    font-family:"Lexend Giga", serif;
+    text-decoration: underline;
+    color: #1F4E79;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+#about-me h2{
+    font-family: "Lexend Giga" serif;
+    font-size: 25px;
+    color: #1F4E79;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+#about-me p {
+    font-family: "Lexend Giga", serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+#about-me img{
+    width: 900px;
+    height: 500px;
+}
+
+/*Formulario contacto*/
+.formulario-contacto {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+.form-contacto {
+    display: flex;
+    flex-direction: column;      
+    gap: 10px;                   
+    width: 300px;                
+    padding: 20px;
+    border: 2px solid #1F4E79;
+    border-radius: 10px;
+    background-color: white;
+}
+.form-contacto label {
+    font-weight: bold;
+    color: #1F4E79;
+}
+
+/*Galeria de imagenes*/
+
+.galeria-imagenes h1 {
+    font-family: "Lexend Giga" serif;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    color: #1F4E79;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.carousel-inner img{
+    width: 500px;
+    height: 300px;
+
+}
+
+/*GUIAS*/
+.guias-europa {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 35px;
+    margin: 10px;
+}
+.guias-europa a {
+    font-family: "Lexend Giga, serif";
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 250px;
+    height: 170px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+
+
+/*PAISES*/
+.paises-desarrollo {
+    font-family:"Lexend Giga", serif;
+    font-weight: normal;
+}
+.paises-desarrollo h1{ 
+    font-family:"Lexend Giga", serif;
+    text-decoration: underline;
+    color: #1F4E79;
+    font-size: 40px;
+    text-align: center;
+}
+.paises-desarrollo h3 {
+    font-family: "Lexend Giga", serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #1F4E79;
+    text-decoration: underline;
+}
+.paises-desarrollo h4 {
+    padding: 0;
+    margin: 10px;
+    align-items: center;
+    font-family: "Lexend Giga", serif;
+    font-weight: bold;
+    display: flex;
+    text-decoration: underline;
+}
+.paises-desarrollo p{
+
+}
+
+.paises-desarrollo img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    object-fit: contain;
+}
+/*Footer*/
+
+.footer-nav {
+    display: flex;
+    font-family:"Lexend Giga", serif;
+    background-color: #d1e9ff;
+    color: #1F4E79;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-nav p {
+    display: flex;
+    font-family: "Lexend Giga", serif;
+    margin-left: auto;
+    font-size: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.footer-nav a {
+    display: flex;
+    font-family:"Lexend Giga", serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    color: #1F4E79;
+    padding: 10px;
+}
+.footer-item img {
+    width: 30px;
+    height: auto;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+}
+
+
+
+
+
